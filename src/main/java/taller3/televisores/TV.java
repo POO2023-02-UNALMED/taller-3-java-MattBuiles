@@ -13,11 +13,11 @@ public class TV {
   public Marca getMarca(){return marca;}
   public void setMarca(Marca marca){this.marca = marca;}
   public int getCanal() {return canal;}
-  public void setCanal(int canal) {if(canal<=120&&canal>=1){this.canal = canal;}}
+  public void setCanal(int canal) {if(estado==true){if(canal<=120&&canal>=1){this.canal = canal;}}}
   public int getPrecio() {return precio;}
   public void setPrecio(int precio) {this.precio=precio;}
   public int getVolumen() {return volumen;}
-  public void setVolumen(int volumen) {if(volumen<=7&&volumen>=0){this.volumen=volumen;}}
+  public void setVolumen(int volumen) {if(estado==true){if(volumen<=7&&volumen>=0){this.volumen=volumen;}}}
   public Control getControl() {return control;}
   public void setControl(Control control) {this.control=control;}
   
