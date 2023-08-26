@@ -1,7 +1,7 @@
 package taller3.televisores;
 
 public class Control {
-  TV tv;
+  private TV tv;
   public void turnOn(){tv.turnOn();}
   public void turnOff(){tv.turnOff();}
   public void canalUp(){tv.canalUp();}
