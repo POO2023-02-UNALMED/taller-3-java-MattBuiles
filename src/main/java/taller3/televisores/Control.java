@@ -6,8 +6,8 @@ public class Control {
   public void turnOff(){tv.turnOff();}
   public void canalUp(){tv.canalUp();}
   public void canalDown(){tv.canalDown();}
-  public void volumenUp(){tv.volumeUp();}
-  public void volumenDown(){tv.volumeDown();}
+  public void volumenUp(){tv.volumenUp();}
+  public void volumenDown(){tv.volumenDown();}
   public void setCanal(int value){tv.setCanal(value);}
   public void setVolumen(int value){tv.setVolumen(value);}
 

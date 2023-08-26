@@ -29,6 +29,6 @@ public class TV {
 
   public void canalUp(){if(estado==true){if (canal<120) {canal++;}}}
   public void canalDown(){if(estado==true){if (canal>1) {canal--;}}}
-  public void volumeUp(){if(estado==true){if (volumen<7) {volumen++;}}}
-  public void volumeDown(){if(estado==true){if (volumen>0) {volumen--;}}}
+  public void volumenUp(){if(estado==true){if (volumen<7) {volumen++;}}}
+  public void volumenDown(){if(estado==true){if (volumen>0) {volumen--;}}}
 }
