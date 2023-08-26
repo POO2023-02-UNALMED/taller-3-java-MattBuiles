@@ -21,7 +21,8 @@ public class TV {
   public Control getControl() {return control;}
   public void setControl(Control control) {this.control=control;}
   
-  public void numTV(int num){numTV++;}
+  public int getNumTV(){return numTV;}
+  public static void setNumTV(int num){numTV=num;}
 
   public void turnOn(){this.estado=true;}
   public void turnOff(){this.estado=false;}
