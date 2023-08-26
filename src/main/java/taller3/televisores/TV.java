@@ -18,7 +18,7 @@ public class TV {
   public void setPrecio(int precio) {this.precio=precio;}
   public int getVolumen() {return volumen;}
   public void setVolumen(int volumen) {if(volumen<=7&&volumen>=0){this.volumen=volumen;}}
-  public Control getcontrol() {return control;}
+  public Control getControl() {return control;}
   public void setControl(Control control) {this.control=control;}
   
   public void numTV(int num){numTV++;}
